@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Eric Wing Portfolio: Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<meta name="description" content="This is Eric Wing's form page.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<h1>Eric Wing</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="form.html">Form</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="form">
+			<form method="post" action="https://webdevstudents.com/portfolio/submit-form.php">
+				<label for="first_name">*First Name</label> 
+				<input type="text" id="first_name" name="first_name" required>
+				<label for="last_name">*Last Name</label> 
+				<input type="text" id="last_name" name="last_name" required>
+				<label for="email">*Email</label> 
+				<input type="email" id="email" name="email" required>
+				<label for="Phone">*Phone</label> 
+				<input type="tel" id="phone" name="phone" not-required>
+				<label for="comments">*Your Report</label> 
+				<textarea id="comments" name="comments"></textarea>
+				<label for="submit-form">*Submit</label> 
+				<input type="submit" id="submit" name="submit" required>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>
+			© Copyright Autonomous Effluvia LLC
+			<br>
+			This website is the sole property of Eric Wing and Automonous Effluvia LLC 2021. All rights reserved.
+		</p>
+	</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

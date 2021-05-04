@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,600&display=swap');
+
+head{
+	display: none;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	display: block;
+}
+.eric{
+	float:left;
+	max-width: 40%;
+	height:auto;
+	display:block;
+	padding-right: 10px;
+	margin: 10px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+.about{
+	padding-top:10px;
+	padding-bottom:50px;
+}
+.about ul{
+	overflow: hidden;
+}
+header{
+	background-color:#8b8b8b;
+	display: block;
+}
+h1{
+	text-align:center;
+	margin: 0px;
+	padding:15px;
+	font-size:50px;
+	display: block;
+	font-weight: bold;
+}
+nav{
+	background-color: #19C97D;
+	margin: 0px;
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+	display: block;
+}
+main{
+	margin:0 auto;
+	max-width: 1000px;
+	padding: 10px;
+	display: block;
+}
+div{
+	padding-top: 10px;
+	padding-bottom: 50px;
+	display: block;
+}
+footer{
+	clear: both;
+	background-color: #19C97D;
+	color: white;
+	padding: 50px;
+	border-top: 3px solid black;
+	display: block;
+}
+footer p{
+	text-align: center;
+	max-width: 1000px;
+	margin: auto;
+}
+p{
+	font-size: 18px;
+	display: block;
+	margin: 1em 1em 0px 0px;
+}
+.table th{
+	border-top-color: purple;
+}
+table{
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+td, th{
+	border: 1px solid purple;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+th{
+	background-color: #19C97D;
+	color: white;
+}
+h2{
+	margin: auto;
+}
+h3{
+	margin: auto;
+	text-align: center;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+#submit{
+	display: block;
+	background-color: lightgray;
+}
+
+/* Vertical Navigation bar */
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+}
+ul{
+	padding-left: 40px;
+	display: block;
+	list-style-type: disc;
+	margin: 1em, 1em, 0px, 0px;
+}
+nav li{
+	display:inline;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a:link{
+	color:purple;
+}
+nav a:visited{
+	color:pink;
+}
+nav a:hover{
+	color:gray;
+}
+nav a:active{
+	color:black;
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
