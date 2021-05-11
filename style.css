@@ -8,15 +8,6 @@ body{
 	margin: 0;
 	display: block;
 }
-.float-left{
-	max-width: 40%;
-	height:auto;
-	display:block;
-	padding-right: 10px;
-	margin: 10px;
-	padding-top: 5px;
-	padding-bottom: 15px;
-}
 .about{
 	padding-top:10px;
 	padding-bottom:50px;
@@ -57,6 +48,15 @@ main{
 	margin: 0 auto;
 	max-width: 1000px;
 	padding: 10px;
+}
+.float-left{
+	max-width: 40%;
+	height:auto;
+	display:block;
+	padding-right: 10px;
+	margin: 10px;
+	padding-top: 5px;
+	padding-bottom: 15px;
 }
 footer{
 	clear: both;
