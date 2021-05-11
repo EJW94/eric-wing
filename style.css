@@ -28,6 +28,11 @@ body{
 header{
 	background-color:#8b8b8b;
 	display: block;
+	padding-top: 10px;
+}
+.logo{
+margin: 0 auto;
+display:block;
 }
 h1{
 	text-align:center;
@@ -48,11 +53,6 @@ main{
 	margin:0 auto;
 	max-width: 1000px;
 	padding: 10px;
-	display: block;
-}
-div{
-	padding-top: 10px;
-	padding-bottom: 50px;
 	display: block;
 }
 footer{
@@ -116,12 +116,12 @@ input, textarea{
 /* Vertical Navigation bar */
 
 nav ul{
+	margin: 0 auto;
 	list-style-type: none;
 	text-align: center;
 	padding-left: 0;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin: 0;
 }
 ul{
 	padding-left: 40px;
